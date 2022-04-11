@@ -46,7 +46,7 @@ jobs:
         with:
           name: dist
       - name: Release
-        run: npx publib-npm
+        run: npx -p publib publib-npm
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -62,6 +62,6 @@ jobs:
         with:
           name: dist
       - name: Release
-        run: npx publib-nuget
+        run: npx -p publib publib-nuget
         env:
           NPM_TOKEN: ${{ secrets.NUGET_API_KEY }}
