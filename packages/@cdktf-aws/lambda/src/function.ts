@@ -15,6 +15,8 @@ export class Function extends Resource {
     super(scope, name);
     this.validation(props);
 
+    console.log("REMOVEME: just a bump");
+
     // const { functionName, runtime } = props;
 
     // new LambdaFunction(scope, "LambdaFunction", {
