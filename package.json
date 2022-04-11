@@ -1,0 +1,45 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/cdktf-aws.git"
+  },
+  "keywords": [
+    "cdktf"
+  ],
+  "author": "Thomas Zwarts",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/cdktf-aws/issues"
+  },
+  "homepage": "https://github.com/Thomas-X/cdktf-aws#readme",
+
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "build": "lerna run --scope @cdktf-aws/* package-all",
+    "package": "lerna run package && tools/collect-dist.sh"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/@cdktf-aws/*"
+    ],
+    "nohoist": [
+      "esbuild-wasm",
+      "**/esbuild-wasm",
+      "**/esbuild-wasm/**",
+      "hashdirectory",
+      "**/hashdirectory",
+      "**/hashdirectory/**",
+      "docker-registry-client",
+      "**/docker-registry-client",
+      "**/docker-registry-client/**",
+      "execa",
+      "**/execa",
+      "**/execa/**"
+    ]
+  }
+}
