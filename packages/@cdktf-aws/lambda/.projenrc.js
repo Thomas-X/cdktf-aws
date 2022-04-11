@@ -11,6 +11,10 @@ const project = new cdk.JsiiProject({
   releaseToNpm: true,
   release: true,
 
+  scripts: {
+    "compile-and-package": "npx projen compile && npx projen package-all",
+  },
+
   publishToNuget: {
     dotNetNamespace: "ThomasX.CDKTF.AWS.Lambda",
     packageId: "ThomasX.CDKTF.AWS.Lambda",

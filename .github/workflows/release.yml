@@ -22,8 +22,6 @@ jobs:
           yarn install
       - name: compile
         run: |
-          ls -al
-          chmod +x ./tools/align-version.sh
           ./tools/align-version.sh
           yarn build
       - name: create bundle

@@ -20,7 +20,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "build": "lerna run --scope @cdktf-aws/* package-all",
+    "build": "lerna run --scope @cdktf-aws/* compile-and-package",
     "package": "lerna run package && tools/collect-dist.sh"
   },
   "workspaces": {

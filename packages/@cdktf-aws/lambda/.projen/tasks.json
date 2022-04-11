@@ -91,6 +91,14 @@
         }
       ]
     },
+    "compile-and-package": {
+      "name": "compile-and-package",
+      "steps": [
+        {
+          "exec": "npx projen compile && npx projen package-all"
+        }
+      ]
+    },
     "default": {
       "name": "default",
       "description": "Synthesize project files",

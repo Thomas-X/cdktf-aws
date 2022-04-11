@@ -285,10 +285,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cdktf/provider-aws@7.0.7":
-  version "7.0.7"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-aws/-/provider-aws-7.0.7.tgz#4d8da570bdd0f0cabff88d873992a8a1789f316c"
-  integrity sha512-+be4CIlSvaSFpceokIJ0S1J/Cye3cr4QKzbou2+y/0TGuynIxL05ycts2YAsoP38gc6FsbF7+qa9rhaCA/gUxQ==
+"@cdktf/provider-aws@^7.0.13":
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-aws/-/provider-aws-7.0.13.tgz#91e854f1bb49abac9d766f91720826f319a2a68e"
+  integrity sha512-dvlYiY3B3bUPOSy/e6Zec0PVleIRy1GyhXS0hH3Mlul7UkPvVziLuBGu5SYh/lSiS2rVg9OTWbE5lLPEDZU/vQ==
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
@@ -2356,7 +2356,7 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-cdktf@0.10.1:
+cdktf@^0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/cdktf/-/cdktf-0.10.1.tgz#d9c9ae7ca95f9c602e79c8b24366a4b3a3471bb7"
   integrity sha512-c+Hj3cBppRNcT1qD2FL1R4IDQXaQWwq4ZCyQeWktT5IB3tE2ncRCoZ8me8aaZ4vfT5CpAIkPf5heNmhy+U5P0Q==
@@ -2638,10 +2638,10 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0, console-control-
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.107:
-  version "10.0.107"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.107.tgz#837c296f9b97d7663a2cddaf9771090bae296576"
-  integrity sha512-RijsrEEyjWYatW2HmKphxKT2GCNCYnabk9oGHadn+XPoqO3mpk11/uSQ6CqIuqGnCMAhnxGWBl64jaccJvpuTw==
+constructs@^10.0.110:
+  version "10.0.110"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.110.tgz#f5563efca14648ddb7c633dc1b4369ac30f743fb"
+  integrity sha512-Ojh53qbHi5XxkOFd7acUQebVzEn00KXF93YRwd5vii7tiVrkjgufWPl5NgdhNmvmC/lcQ1w8ke77PN37gQdgoQ==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
